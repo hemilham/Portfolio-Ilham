@@ -1,0 +1,46 @@
+@import 'carbon-components/scss/globals/grid/grid';
+
+@font-face {
+    font-family: 'VG5000';
+    src:    local('VG5000-Regular_web.eot');
+    src:    url('./fonts/vg5000-master/fonts/webfonts/VG5000-Regular_web.eot') format('eot'),
+            url('./fonts/vg5000-master/fonts/webfonts/VG5000-Regular_web.woff')format('woff') ,
+            url('./fonts/vg5000-master/fonts/webfonts/VG5000-Regular_web.woff2') format('woff2'),
+            url('./fonts/vg5000-master/fonts/webfonts/VG5000-Regular_web.ttf') format('truetype'),;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.section{
+    width: 100%;
+    margin: 0;
+    
+
+}
+
+.font-face-vg {
+    font-family: "VG5000";
+}
+
+.containercolor1{
+    background-color: #f2f2f9;
+}
+
+.containercolor2{
+    background-color: #ff74e1;
+
+}
+
+.containercolor3{
+    background-color: rgb(224, 255, 166);
+}
+
+@media (max-width: 767px) {
+
+}
+
+
+
+
