@@ -3,7 +3,7 @@ import './content.scss'
 import TextLoop from "react-text-loop";
 import cxs from "cxs/component";
 
-const Example = cxs("div")({
+const fontSize = cxs("div")({
   fontSize: "1.5rem"
 });
  

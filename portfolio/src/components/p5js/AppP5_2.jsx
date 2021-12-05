@@ -57,6 +57,7 @@ class AppP5_2 extends React.Component {
                     p5.endShape(p5.CLOSE);
                     p5.phase += 0.003;
                     p5.zOff += 0.01;
+                    p5.xOff += 0.03;
                 }
                 else{
                         
@@ -95,6 +96,7 @@ class AppP5_2 extends React.Component {
                     p5.loop();
             
                 }else{ }
+
     
                 for (var j = 0; j < p5.rows; j++) {
     
@@ -132,11 +134,13 @@ class AppP5_2 extends React.Component {
 
         p5.mousePressed = () => {
             p5.noLoop();
+
             //rotateY(0);
           }
           
         p5.mouseReleased = () => {
             p5.loop();
+
           }
 
 

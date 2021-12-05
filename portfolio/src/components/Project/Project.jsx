@@ -7,8 +7,8 @@ export default function Project() {
                 <div class="bx--row row-padding">
                     <div class="bx--col">
                         <div class="content-container">
-                        <h1 class="project_title">Project Title</h1>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        <h1 class="project_title">Sekolah.mu Design System</h1>
+                        <p>A design system of Sekolah.mu is a collection of reusable components, guided by clear standards, that can be assembled together to build any number of applications, and the need for them go hand in hand with the need for scale, efficiency, and consistency in Design. They basically bring order to chaos.
                             </p>  
                         </div>
  
