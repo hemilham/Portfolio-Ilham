@@ -6,7 +6,7 @@ export default function Topbar() {
             <div class="bx--grid bx--grid--narrow sideMargin">
                 <div class="bx--row">
                     <div class="bx--col left">Bandung, West Java, Indonesia</div>
-                    <div class="bx--col right">About</div>
+                    <div class="bx--col right">About This</div>
                 </div>
             </div>
         </div>
