@@ -8,7 +8,7 @@ export default function Project() {
                     <div class="bx--col">
                         <div class="content-container">
                         <h1 class="project_title">Sekolah.mu Design System</h1>
-                        <p>A design system of Sekolah.mu is a collection of reusable components, guided by clear standards, that can be assembled together to build any number of applications, and the need for them go hand in hand with the need for scale, efficiency, and consistency in Design. They basically bring order to chaos.
+                        <p>A design system of Sekolah.mu is a collection of reusable components, guided by clear standards, that can be assembled together to build any number of applications, and the need for every UI Designers go hand in hand with the need for scale, efficiency, and consistency in Design. They basically bring order to chaos.
                             </p>  
                         </div>
  
