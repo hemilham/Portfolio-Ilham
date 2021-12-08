@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio-Ilham/static/css/main.e8acdd73.chunk.css",
-    "main.js": "/Portfolio-Ilham/static/js/main.e0e0de40.chunk.js",
-    "main.js.map": "/Portfolio-Ilham/static/js/main.e0e0de40.chunk.js.map",
+    "main.css": "/Portfolio-Ilham/static/css/main.a149fea3.chunk.css",
+    "main.js": "/Portfolio-Ilham/static/js/main.fa16257c.chunk.js",
+    "main.js.map": "/Portfolio-Ilham/static/js/main.fa16257c.chunk.js.map",
     "runtime-main.js": "/Portfolio-Ilham/static/js/runtime-main.0c5fb689.js",
     "runtime-main.js.map": "/Portfolio-Ilham/static/js/runtime-main.0c5fb689.js.map",
     "static/js/2.142a6cad.chunk.js": "/Portfolio-Ilham/static/js/2.142a6cad.chunk.js",
     "static/js/2.142a6cad.chunk.js.map": "/Portfolio-Ilham/static/js/2.142a6cad.chunk.js.map",
     "index.html": "/Portfolio-Ilham/index.html",
-    "static/css/main.e8acdd73.chunk.css.map": "/Portfolio-Ilham/static/css/main.e8acdd73.chunk.css.map",
+    "static/css/main.a149fea3.chunk.css.map": "/Portfolio-Ilham/static/css/main.a149fea3.chunk.css.map",
     "static/js/2.142a6cad.chunk.js.LICENSE.txt": "/Portfolio-Ilham/static/js/2.142a6cad.chunk.js.LICENSE.txt",
-    "static/media/app.scss": "/Portfolio-Ilham/static/media/VG5000-Regular_web.cb1da240.ttf"
+    "static/media/app.scss": "/Portfolio-Ilham/static/media/VG5000-Regular_web.cb1da240.ttf",
+    "static/media/ds-1.f2965843.png": "/Portfolio-Ilham/static/media/ds-1.f2965843.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0c5fb689.js",
     "static/js/2.142a6cad.chunk.js",
-    "static/css/main.e8acdd73.chunk.css",
-    "static/js/main.e0e0de40.chunk.js"
+    "static/css/main.a149fea3.chunk.css",
+    "static/js/main.fa16257c.chunk.js"
   ]
 }
