@@ -34,7 +34,7 @@ class Content extends React.Component {
                             </div>
                             
                         </div>
-                        <div class="bx--col right ">
+                        <div class="bx--col right">
                             <div class="content-container sub-content subtext">
                             <h4>/interaction design</h4>
                             <h4>/user experience</h4>
