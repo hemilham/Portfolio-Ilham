@@ -1,10 +1,13 @@
 import './project.scss'
 import pic from './img/ds-1.png'
 
+
+
 export default function Project() {
     return(
+
     <div class="project">
-        <div class="bx--grid bx--grid--narrow">
+        <div class="bx--grid">
                 <div class="bx--row row-padding">
                     <div class="bx--col">
                         <div class="content-container">
@@ -13,14 +16,10 @@ export default function Project() {
                             </p>  
                         </div>
                     </div>
-                    <div class="bx--col right">
+                    <div class="bx--col bx--col-sm-4 right">
                         <div class="content-container right-column">
                             <div class="right">
                             <img src={pic} ></img> 
-                            <a class="" href="">
-                        
-                            </a>
-
                             </div>
 
                         </div>     
@@ -28,6 +27,7 @@ export default function Project() {
                 </div>      
         </div>
     </div>
+
         
 
     )

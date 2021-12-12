@@ -2,7 +2,7 @@ import './project-2.scss';
 
 export default function Project2() {
     return(
-    <div class="project">
+    <div class="project bg">
         <div class="bx--grid bx--grid--condensed">
             <div class="bx--row sideMargin container-padding">
                 <div class="bx--col bx--col-sm-4 ">
@@ -12,9 +12,7 @@ export default function Project2() {
                 </div>
                 <div class="bx--col bx--col-sm-4 right"> 
                 <div class="content-container">
-                    <a class="" href="">
                         <h4>blablalbla</h4>
-                    </a>
                         <h4>blaaaaablalbla</h4>
                 </div>                    
                 </div>

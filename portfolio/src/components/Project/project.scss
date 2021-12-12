@@ -1,8 +1,18 @@
 .project{
     height: 100vh;
     width: 100%;
-    width: 100%;
-    height: 100vh;
+    background-color: #ff74e1;
+
+    h1{
+        font-size: 6.2rem;
+        
+    };
+
+    h4{
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-top: 2px;
+    };
 
     img{
         width: 640px;
@@ -11,9 +21,25 @@
         padding-left: 4rem;
         max-width: -webkit-fill-available;
     }
+
+    @media only screen and (max-width: 1200px) {
+        h1{
+            font-size: 3rem;
+            
+        };
+    
+    };
   
     @media (max-width: 767px) {
         min-width: fit-content;
+
+        height: auto;
+
+        h1{
+            font-size: 2.7rem;
+            
+        };
+
 
         .bx--row{
             display: block;
@@ -23,7 +49,33 @@
 
         img{
             width: -webkit-fill-available;
-            max-width: 360px;
+            max-width: 480px;
+            padding-left:0 ;
+        }
+
+
+    }
+
+   
+
+
+    @media (max-width: 428px) {
+        min-width: fit-content;
+
+        h1{
+            font-size: 2.4rem;
+            
+        };
+
+        .bx--row{
+            display: block;
+
+            
+        }
+
+        img{
+            width: -webkit-fill-available;
+            max-width: 320px;
             padding-left:0 ;
         }
 
@@ -58,6 +110,10 @@ a{
 
 }
 
+.bg-2{
+    background-color: rgb(224, 255, 166);
+}
+
 
 
 
@@ -71,9 +127,17 @@ a{
 
     }
 
-    p{
-        max-width: fit-content;
+    .content-container{
+
+        p{
+            padding-top: 1rem;
+            max-width: fit-content;
+            font-size: 1rem;
+        }
+
     }
+
+
 
     
 

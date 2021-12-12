@@ -1,5 +1,6 @@
 import Sketch from 'react-p5';
 import React from 'react';
+import '../Project/project.scss'
 
 class AppP5 extends React.Component {
 
@@ -41,8 +42,8 @@ class AppP5 extends React.Component {
 
 	render() {
 		return (
-		<div className="AppP5">
-        <div class="bx--grid bx--grid--narrow">
+		<div className="project bg-2">
+        <div class="bx--grid">
           <div class="bx--row row-padding">
                     <div class="bx--col">
                         <h1 class="content-container project_title">Project Title</h1>
