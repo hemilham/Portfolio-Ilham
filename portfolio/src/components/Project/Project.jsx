@@ -6,7 +6,7 @@ import pic from './img/ds-1.png'
 export default function Project() {
     return(
 
-    <div class="project">
+    <div class="project bg-1">
         <div class="bx--grid">
                 <div class="bx--row row-padding">
                     <div class="bx--col">

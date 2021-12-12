@@ -12,7 +12,7 @@ class Content extends React.Component {
 
     render(){
         return(
-            <div class="content">
+        <div class="content">
             <div class="bx--grid">
                     <div class="bx--row">
                         <div class="bx--col content-spacing">
@@ -27,7 +27,7 @@ class Content extends React.Component {
                                 <span>ui/ux design</span>
                                 <span>new media art</span>
                                 <span>interdisciplinary projects</span>
-                                <span>react development</span>
+                                <span>web development</span>
                                 </TextLoop>{" "}
                             </h3>
 

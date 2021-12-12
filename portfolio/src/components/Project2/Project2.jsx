@@ -2,23 +2,26 @@ import './project-2.scss';
 
 export default function Project2() {
     return(
-    <div class="project bg">
-        <div class="bx--grid bx--grid--condensed">
-            <div class="bx--row sideMargin container-padding">
-                <div class="bx--col bx--col-sm-4 ">
-                        <h1>contenttt</h1>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                        </p>
-                </div>
-                <div class="bx--col bx--col-sm-4 right"> 
-                <div class="content-container">
-                        <h4>blablalbla</h4>
-                        <h4>blaaaaablalbla</h4>
-                </div>                    
-                </div>
-            </div>   
+        <div class="project bg-3">
+        <div class="bx--grid">
+                <div class="bx--row row-padding">
+                    <div class="bx--col">
+                        <div class="content-container">
+                        <h1 class="project_title">Fabelio Product Detail Page</h1>
+                        <p>A design system of Sekolah.mu is a collection of reusable components, guided by clear standards, that can be assembled together to build any number of applications, and the need for every UI Designers go hand in hand with the need for scale, efficiency, and consistency in Design. They basically bring order to chaos.
+                            </p>  
+                        </div>
+                    </div>
+                    <div class="bx--col bx--col-sm-4 right">
+                        <div class="content-container right-column">
+                            <div class="right">
+                            <h4> content img</h4>
+                            </div>
+
+                        </div>     
+                    </div>
+                </div>      
         </div>
-        
     </div>
         
 

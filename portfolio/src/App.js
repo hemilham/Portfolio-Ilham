@@ -14,9 +14,9 @@ function App() {
       <Topbar/>
 
       <Routes>
-        <Route path="/home" element={<Home/>}/>
-        <Route path="/Portfolio-Ilham" element={<Home/>}/>
-        <Route path="/detail" element={<DetailPage/>}/>
+          <Route path="/home" element={<Home/>}/>
+          <Route path="/Portfolio-Ilham" element={<Home/>}/>
+          <Route path="/detail" element={<DetailPage/>}/>
       </Routes>
       <div className="App font-face-vg">
         <BottomBar/>

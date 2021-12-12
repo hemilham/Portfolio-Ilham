@@ -1,0 +1,40 @@
+@import 'carbon-components/scss/globals/grid/grid';
+
+$feature-flags: (
+  grid-columns-16: true,
+);
+
+
+img{
+    width: inherit;
+}
+.section{
+    width: -webkit-fill-available;
+    margin: 0;
+    
+}
+
+.font-face-vg {
+    font-family: "VG5000";
+}
+
+.containercolor1{
+    background-color: #1111cc;
+}
+
+.bg-4{
+    background-color: #f2f2f2;
+}
+
+.detail-content{
+    height: auto;
+    padding-bottom: 3rem;
+}
+
+@media (max-width: 767px) {
+
+}
+
+
+
+
