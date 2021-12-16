@@ -9,7 +9,7 @@ export default function Project2() {
                 <div class="bx--row row-padding">
                     <div class="bx--col">
                         <div class="content-container">
-                        <h1 class="project_title">Fabelio Product Detail Page</h1>
+                        <h1 class="project_title title-2" >Fabelio Product Detail Page</h1>
                         <div className="bx--row row-custom">
                                 <div class="custom-badge">
                                 <Badge pill bg="light" text="dark">Product Design</Badge>{' '}

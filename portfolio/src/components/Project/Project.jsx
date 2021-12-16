@@ -12,7 +12,7 @@ export default function Project() {
                 <div class="bx--row row-padding">
                     <div class="bx--col">
                         <div class="content-container">
-                        <h1 class="project_title">Sekolah.mu Design System</h1>
+                        <h1 class="project_title title">Sekolah.mu Design System</h1>
                         <div className="bx--row row-custom">
                                 <div class="custom-badge">
                                 <Badge pill bg="light" text="dark">Product Design</Badge>{' '}

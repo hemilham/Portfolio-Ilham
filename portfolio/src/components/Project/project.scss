@@ -2,10 +2,14 @@
     height: 100vh;
     width: inherit;
 
-    h1{
-        font-size: 6.2rem;
+    .title{
+        font-size: 6rem;
         
     };
+
+    .title-2{
+        font-size: 5.5rem;
+    }
 
     h4{
         font-size: 1rem;
@@ -22,7 +26,7 @@
     }
 
     @media only screen and (max-width: 1200px) {
-
+        height: auto;
         padding-bottom: 2rem;
         
         h1{
@@ -36,12 +40,10 @@
         
         height: auto;
 
-        h1{
+        .title, .title-2{
             font-size: 2.7rem;
             
         };
-
-
 
 
     }
