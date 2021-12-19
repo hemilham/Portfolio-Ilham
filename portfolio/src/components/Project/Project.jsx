@@ -27,24 +27,16 @@ export default function Project() {
                         <p>A design system of Sekolah.mu is a collection of reusable components, guided by clear standards, that can be assembled together to build any number of applications, and the need for every UI Designers go hand in hand with the need for scale, efficiency, and consistency in Design. They basically bring order to chaos.
                             </p>  
                         </div>
-                    </div>
+                    </div>  
+                    <Link to="/Portfolio-Ilham/detail">            
                     <div class="bx--col">
                         <div class="content-container right-column">
-                            <div className="bx--row">
-                                <div className="bx--col">
-                                    <div class="right">
-                                    <Link
-                                        to="/detail"
-                                    >
-                                    
-                                     <img src={pic} ></img> 
-                                     </Link>
-                                    </div>            
-                                </div>      
-                            </div>
-
-                        </div>     
+                            <div class="right">
+                                <img src={pic} ></img> 
+                            </div>    
+                        </div>    
                     </div>
+                    </Link>
                 </div>      
         </div>
     </div>

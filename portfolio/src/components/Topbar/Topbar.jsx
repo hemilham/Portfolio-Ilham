@@ -4,6 +4,7 @@ import { useState } from 'react'
 import render from 'react'
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { Link } from 'react-router-dom';
 
 
 const options = [
@@ -61,9 +62,13 @@ export default function Topbar() {
             <div class="bx--grid bx--grid--narrow">
                 <div class="bx--row">
                         <div class="bx--col left">
-                            <Button class="" onClick={toggleShow}>Work In Progress</Button>                         
+
+                            <Button class="" onClick={toggleShow}>Work In Progress</Button>  
+                   
                         </div>
-                    <div class="bx--col right">About</div>
+                        
+                        <div class="bx--col right"><Link to="/Portfolio-Ilham">About</Link></div>
+ 
                 </div>
             </div>
         </div>
