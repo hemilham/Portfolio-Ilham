@@ -11,7 +11,7 @@ function DetailPage() {
             <div class="bx--grid content detail-content">
                     <div class="bx--row">
                         <div class="bx--col">
-                            <img src={pic} ></img>            
+                            <img src={pic} alt="project img"></img>            
                         </div>
                     </div>        
             </div>

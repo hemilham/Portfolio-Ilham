@@ -2,10 +2,8 @@ import React from 'react';
 import p5 from 'p5';
 
 
-
 class AppP5_2 extends React.Component {
 
-    
 
     constructor(props) {
         super(props)
@@ -18,6 +16,7 @@ class AppP5_2 extends React.Component {
         let rows = 32;
         let zoff= 0;
         let xoff= 0;
+        let lemonz;
 
         
 
@@ -30,6 +29,11 @@ class AppP5_2 extends React.Component {
     
             
         };
+
+        p5.preload= () => {
+            // Load model with normalise parameter set to true
+            //p5.lemonz = p5.loadModel('/assets-a/LEMONCAMERA3.obj', true);
+          };
 
         p5.draw = () => {
 
@@ -56,8 +60,8 @@ class AppP5_2 extends React.Component {
                     }
                     p5.endShape(p5.CLOSE);
                     p5.phase += 0.003;
-                    p5.zOff += 0.01;
-                    p5.xOff += 0.03;
+                    p5.z0ff += 0.01;
+                    p5.x0ff += 0.03;
                 }
                 else{
                         
@@ -118,16 +122,10 @@ class AppP5_2 extends React.Component {
                 p5.fill(255, 255, 255);
                 p5.rect(218, -268, 240, 128);
 
-                
-    
-    
-    
+            
     
             }
 
-
-            
-    
             
         };
 

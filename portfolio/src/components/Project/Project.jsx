@@ -1,10 +1,12 @@
 import './project.scss'
 import pic from './img/ds-1.png'
 import Badge from 'react-bootstrap/Badge'
+import { Link } from 'react-router-dom'
 
 
 
 export default function Project() {
+    
     return(
 
     <div class="project bg-1">
@@ -31,7 +33,12 @@ export default function Project() {
                             <div className="bx--row">
                                 <div className="bx--col">
                                     <div class="right">
-                                    <img src={pic} ></img> 
+                                    <Link
+                                        to="/detail"
+                                    >
+                                    
+                                     <img src={pic} ></img> 
+                                     </Link>
                                     </div>            
                                 </div>      
                             </div>

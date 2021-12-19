@@ -28,11 +28,9 @@ class Content extends React.Component {
                                 <span>new media art</span>
                                 <span>interdisciplinary projects</span>
                                 <span>web development</span>
-                                </TextLoop>{" "}
+                            </TextLoop>{" "}
                             </h3>
-
-                            </div>
-                            
+                            </div>           
                         </div>
                         <div class="bx--col right">
                             <div class="content-container sub-content subtext">

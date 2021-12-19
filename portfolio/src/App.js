@@ -8,10 +8,18 @@ import Home from './pages/Home';
 import DetailPage from './pages/DetailPage'
 
 
+
+
+
+
 function App() {
+
+
   return ( 
+    <>
     <Router>
       <Topbar/>
+      
 
       <Routes>
           <Route path="/home" element={<Home/>}/>
@@ -22,11 +30,11 @@ function App() {
         <BottomBar/>
       </div>
     </Router>
-    
-
-
+    </>
     
   );
+
+  
 }
 
 export default App;

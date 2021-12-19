@@ -1,9 +1,8 @@
-import React from 'react';
-import './topbar.scss';
-import { useState } from 'react'
-import render from 'react'
-import Button from 'react-bootstrap/Button';
-import Offcanvas from 'react-bootstrap/Offcanvas';
+import Offcanvas from 'react-bootstrap/Offcanvas'
+import Button from 'react-bootstrap/Button'
+import { useState } from 'react';
+import { render } from '@testing-library/react';
+
 
 
 const options = [
@@ -29,17 +28,17 @@ const options = [
     },
   ];
 
-
-export default function Topbar() {
-
-    const [show, setShow] = useState(false);
-    const handleClose = () => setShow(false);
-    const toggleShow = () => setShow((s) => !s);
-
     function OffCanvasExample({ name, ...props }) {
+        const [show, setShow] = useState(false);
+      
+        const handleClose = () => setShow(false);
+        const toggleShow = () => setShow((s) => !s);
       
         return (
           <>
+            <Button variant="primary" onClick={toggleShow} className="me-2">
+              {name}
+            </Button>
             <Offcanvas show={show} onHide={handleClose} {...props}>
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title>Offcanvas</Offcanvas.Title>
@@ -51,28 +50,8 @@ export default function Topbar() {
             </Offcanvas>
           </>
         );
-      };
-
-
-    
-    return(
-        
-        <div class="topbar">
-            <div class="bx--grid bx--grid--narrow">
-                <div class="bx--row">
-                        <div class="bx--col left">
-                            <Button class="" onClick={toggleShow}>Work In Progress</Button>                         
-                        </div>
-                    <div class="bx--col right">About</div>
-                </div>
-            </div>
-        </div>
-
-        
-        
-        
-    )
-
+      }
+      
     function Example() {
         return (
           <>
@@ -83,11 +62,4 @@ export default function Topbar() {
         );
       }
       
-      render(<Example />);
-
-
-
-    
-};
-
-
+    render(<Example />);
