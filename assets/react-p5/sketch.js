@@ -2,6 +2,7 @@ var cols = 32;
 var rows = 32;
 let phase = 0;
 let zoff = 0;
+let lemonz
 
 
 
@@ -19,7 +20,7 @@ function windowResized() {
 
 function preload() {
   // Load model with normalise parameter set to true
-  //lemonz = loadModel('assets-a/LEMONCAMERA 3.obj', true);
+  //lemonz = loadModel("lemonz.glb", true);
 }
 
 function draw() {
@@ -57,7 +58,7 @@ function draw() {
     ambientLight(230, 128, 80);
     ambientMaterial(255, 255, 120);
     directionalLight(230, 255, 10, -128, 100, 32);
-    box(100);
+    box(64);
 
     pop();
     if (mouseIsPressed) {
