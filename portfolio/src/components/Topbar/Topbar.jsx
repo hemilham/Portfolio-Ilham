@@ -63,11 +63,11 @@ export default function Topbar() {
                 <div class="bx--row">
                         <div class="bx--col left">
 
-                            <Button class="" onClick={toggleShow}>Work In Progress</Button>  
+                            <Button onClick={toggleShow}>Work In Progress</Button>  
                    
                         </div>
                         
-                        <div class="bx--col right"><Link to="/Portfolio-Ilham">About</Link></div>
+                        <div class="bx--col right "><Button><Link class="about" to="/Portfolio-Ilham">About</Link></Button></div>
  
                 </div>
             </div>

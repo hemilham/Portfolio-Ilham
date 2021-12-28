@@ -22,7 +22,7 @@
         height: auto;
         padding-top: 0;
         max-width: 640px;
-        padding-left: 1.5rem;
+        padding-left: 2rem;
     }
 
     @media only screen and (max-width: 1200px) {
@@ -33,6 +33,13 @@
             font-size: 3rem;
             
         };
+
+        img{
+            width: inherit;
+            height: auto;
+            padding-top: 0;
+            padding-left: 0;
+        }
     
     };
   
@@ -45,6 +52,13 @@
             
         };
 
+        img{
+            width: inherit;
+            height: auto;
+            padding-top: 0;
+            padding-left: 0;
+        }
+
 
     }
 
@@ -54,6 +68,8 @@
         line-height: 1.2;
 
     }
+
+
 
    
 
@@ -67,8 +83,7 @@
         };
 
         img{
-            width: -webkit-fill-available;
-            max-width: 320px;
+            width: inherit;
             padding-left:0 ;
         }
 

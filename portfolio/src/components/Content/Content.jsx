@@ -9,12 +9,9 @@ const fontSize = cxs("div")({
  
 
 class Content extends React.Component {
-
     render(){
         return(
-
         <div class="content">
-
             <div class="bx--grid">
                     <div class="bx--row">
                         <div class="bx--col content-spacing">
